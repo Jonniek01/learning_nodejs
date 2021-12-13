@@ -1,0 +1,8 @@
+Q1: What is the scope of blockchain in the future?
+A1:  Blockchain is expected to expand its scope of usability into many more areas, including the Internet of Things (IoT), extensive data analysis, law-making / enforcement, and finance. Blockchain technology will fundamentally change how we live and work in the future. The Global Blockchain Market is expected to reach USD 34 billion by 2026, with a growth rate of 45%.
+
+Q2: What are some current and future applications of blockchain?
+A2: Blockchain technology has already been implemented in many fields, including digital identities, payment systems, cloud storage of data, smart contracts, issuance of cryptocurrencies (ICO), logistics management, and IoT transactions. These are expected to serve as new foundations for entirely new types of businesses and services in the future.
+
+Q3: What do you think is the future of blockchain technologies in financial markets?
+A3: Blockchain technologies are expected to bring massive disruptions to financial services. For instance, banks can use blockchain technology to handle remittances for lower costs and higher productivity, improving the efficiency of transactions without sacrificing security. Blockchain will also create new kinds of financial products (e.g., derivatives) on top of existing ones for improved risk management.
