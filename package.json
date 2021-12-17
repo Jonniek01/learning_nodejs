@@ -1,0 +1,22 @@
+{
+  "name": "learning",
+  "version": "1.0.0",
+  "description": "learning node js",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jonniek01/learning_nodejs.git"
+  },
+  "author": "john",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jonniek01/learning_nodejs/issues"
+  },
+  "homepage": "https://github.com/Jonniek01/learning_nodejs#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
