@@ -17,8 +17,8 @@
   },
   "homepage": "https://github.com/Jonniek01/learning_nodejs#readme",
   "dependencies": {
-    "lodash": "^4.17.21",
-    "_comment":"major.minor.patch  ^means update minor and patch only ~ means update patch only not having ^ or ~ means no updates on the package"
-     
+    "_comment": "major.minor.patch  ^means update minor and patch only ~ means update patch only not having ^ or ~ means no updates on the package",
+    "express": "^4.17.2",
+    "lodash": "^4.17.21"
   }
 }
