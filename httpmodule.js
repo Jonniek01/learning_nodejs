@@ -1,3 +1,4 @@
+//setting up an http server with node
 const http=require("http");
 const server=http.createServer((req,res)=>{
     if (req.url==="/"){

@@ -1,21 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+ <head>
 <meta charset="UTF-8">
-<title>Page Title</title>
+<title>node</title>
+<base href="/">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="">
-<style>
-</style>
-<script src=""></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="../static/static.css">
+</head>
+
 <body>
+ <div class="container">
+<div class="row">
+<div class="col col-10 col-md-5 ml-1 intro">
+ <h1>Learning express JS</h1>
+ <p>Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.</p>
+</div>
+<div class="col col-10 col-md-5 mr-1 login">
+    <h2>Log In</h2>
+    <form action="/" method="post" id="form">
+        <div>
+            <label for="uname">User Name</label><br/>
+            <input type="text" id="uname" name="email" placeholder="Email">
+        </div>
+        <div>
+            <label for="pass">Password</label><br/>
+            <input type="password" id="pass" name="password" value="" placeholder="password">
+        </div>
 
-<img src="node.png" alt="LA" style="width:100%">
-
-<div class="">
- <h1>This is a Heading</h1>
- <p>This is a paragraph.</p>
- <p>This is another paragraph.</p>
+        <input type="submit" value="login">
+      </form>
+</div>
+</div>
 </div>
 
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src=""></script>
+<script>
+    $(document).ready(()=>{
+        $("#form").submit((e)=>{
+            $.ajax(
+                {
+                    url:"/",
+                    type:"post",
+                    contentType:"application/json",
+                    data:JSON.stringify($("#form").serializeArray()),
+                    response:(response)=>{
+                        console.log("succesfully got response.");
+                        console.log(response);
+                    }
+                }
+            )
+
+        }
+
+        );
+    }
+
+    );
+</script>
 </body>
 </html>

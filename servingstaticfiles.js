@@ -1,3 +1,5 @@
+//serving static files with node
+
 const fs=require("fs");
 const http=require("http");
 http.createServer((req,res)=>{
